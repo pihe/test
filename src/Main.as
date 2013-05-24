@@ -19,7 +19,9 @@ package
 		private function init(e:Event = null):void 
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
-			// entry point
+
+			stage.scaleMode = 'noScale'
+			stage.align = 'TL'
 		}
 		
 	}
