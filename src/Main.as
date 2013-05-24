@@ -1,6 +1,8 @@
 package 
 {
 	import flash.display.Sprite;
+	import flash.display.StageAlign;
+	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	
 	/**
@@ -20,8 +22,8 @@ package
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 
-			stage.scaleMode = 'noScale'
-			stage.align = 'TL'
+			stage.scaleMode = StageScaleMode.NO_SCALE
+			stage.align = StageAlign.TOP_LEFT
 		}
 		
 	}
